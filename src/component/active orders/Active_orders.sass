@@ -1,0 +1,225 @@
+.container 
+    width: 1280px
+    margin: 0 auto
+.orders_content 
+    padding: 50px 0px
+    .orders_block 
+        display: flex
+        .left_content  
+            max-width: 550px
+
+            .title
+                h1 
+                    font-weight: 400
+                    font-size: 40px
+                    color: #42445A
+                    margin-bottom: 59px
+
+
+            .orders_item 
+                margin-bottom: 50px
+                .orders_box 
+                    max-width: 550px
+                    background: #EFF4FA
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+                    border-radius: 5px
+                    padding: 20px 20px
+                    margin-bottom: 20px
+                    .box_title
+                        display: flex
+                        margin-bottom: 5px
+                        p
+                            margin-right: 118px 
+                            color: #0BD9A9
+                            font-weight: 400
+                            font-size: 20px
+
+
+                    .info 
+                        display: flex
+                        align-items: flex-end
+
+                        .info_left 
+                            margin-right: 30px
+                            p 
+                                margin-top: 10px
+                                color: rgba(66, 68, 90, 0.8)
+                                font-weight: 400
+                                font-size: 19px
+
+                        .info_right 
+                            p 
+                                margin-top: 10px
+                                color: rgba(66, 68, 90, 0.5)
+                                font-weight: 400
+                                font-size: 18px
+
+
+
+                        .icon 
+                            margin-left: 40px
+                            img  
+                                margin-left: 80px
+                                cursor: pointer
+                                
+                                
+                            p 
+                                margin-top: 20px
+
+
+
+
+
+        .right_content
+            max-width: 640px
+
+
+            margin-left: 50px
+
+            .order_info
+                .adreas_block
+                    background: #EFF4FA
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+                    border-radius: 5px
+                    padding: 7px 20px
+                    display: flex
+                    align-items: center
+                    width: 100%
+                    margin-bottom: 20px
+                    max-width: 640px
+
+
+                    .adreas_text
+                        margin-right: 50px
+
+                        p
+                            font-weight: 400
+                            font-size: 20px
+                            color: rgba(66, 68, 90, 0.5)
+                            line-height: 150%
+
+                            
+                            b
+
+
+
+                    .adreas_button
+                        img
+                            cursor: pointer
+
+
+                .order_product
+                    background: #EFF4FA
+                    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.15)
+                    border-radius: 5px
+                    padding: 20px
+                    overflow: auto
+                    height: 430px
+                    max-width: 640px
+
+                    .product_item
+                        padding: 17px
+                        background: #FFFFFF
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+                        border-radius: 5px
+                        margin-bottom: 10px
+                        display: flex
+
+                        .left_item_product
+                            display: flex
+                            margin-right: 25px
+                            .imgg
+                                background: #FE7564
+                                border-radius: 10px
+                                width: 78px
+                                height: 78px
+                                display: flex
+                                align-items: center
+                                justify-content: center
+                                margin-right: 15px
+
+                                img
+                                    width: 85%
+                                    margin-top: 15px
+
+
+                            .info_content 
+
+                                h2 
+                                    font-weight: 600
+                                    font-size: 22px
+                                    color: #42445A
+                                    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+                                    margin-bottom: 13px
+
+                                .sort 
+                                    display: flex
+                                    margin-bottom: 16px
+
+
+
+                                    p 
+                                        font-weight: 400
+                                        font-size: 15px
+                                        color: #42445A
+                                        margin-right: 20px
+
+                                h3
+                                    font-weight: 400
+                                    font-size: 15px
+                                    color: rgba(66, 68, 90, 0.5)
+
+                        .right_item_product
+                            display: flex
+                            .info_content2
+                                margin-right: 35px 
+                            
+                                h2
+                                    font-weight: 400
+                                    font-size: 15px
+                                    color: #70ADEE
+                                    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+                                    margin-bottom: 25px
+
+                                p 
+                                    font-weight: 400
+                                    font-size: 20px
+                                    color: #42445A
+
+
+
+
+
+
+
+@media  (max-width: 1100px)
+    .orders_content
+        .orders_block
+            display: block
+            .left_content
+            .right_content
+                width: 100% 
+                .order_info
+                    .adreas_block
+
+
+
+@media  (max-width: 720px)
+    .orders_content
+        .orders_block
+            max-width: 700px
+            display: block
+            .left_content
+            .right_content
+                width: 100% 
+                .order_info
+                    .adreas_block
+                        max-width: 450px
+
+                    .order_product
+                        max-width: 450px
+                        .product_item
+                            display: block    
+                           
+                    
+
