@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './index.module.sass'
-import img from '../assets/img/Vector451.png'
+import img from '../../assets/img/Vector451.png'
 
 export const BasketsSave = () => {
     return (
